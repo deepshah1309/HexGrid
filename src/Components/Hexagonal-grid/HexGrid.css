@@ -1,0 +1,20 @@
+.hex-grid-row{
+    
+    display: inline-flex;
+    margin-bottom:-10%;
+    /* margin-top:-30px;
+    margin-left:-50px; */
+    
+
+}
+.hex-container{
+    position:relative;
+    min-height:100vh;
+    height:auto;
+    overflow:hidden;
+    background:transparent;
+}
+
+.hex-grid-row:nth-child(even){
+margin-left:8%;
+}
